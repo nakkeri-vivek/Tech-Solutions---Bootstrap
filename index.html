@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <div class="logo-container">
+                    <div class="logo-shapes">
+                        <div class="logo-shape-top"></div>
+                        <div class="logo-shape-bottom"></div>
+                    </div>
+                    <div>
+                        <div style="line-height: 1.2;">Tech</div>
+                        <div style="line-height: 1.2; font-size: 0.85em; margin-top: -2px;">Solutions</div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner" id="carouselInner">
+            <div class="carousel-item active">
+                <div class="hero-slide hero-slide-1 d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h1 class="display-3 fw-bold mb-4" style="color: var(--dark-gray);">Innovative Tech Solutions</h1>
+                        <p class="lead mb-4" style="color: var(--medium-gray);">Transforming ideas into digital reality</p>
+                        <a href="contact.html" class="btn btn-primary btn-lg" style="background-color: var(--dark-gray); border-color: var(--dark-gray);">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-slide hero-slide-2 d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h1 class="display-3 fw-bold mb-4" style="color: var(--dark-gray);">Expert Development Team</h1>
+                        <p class="lead mb-4" style="color: var(--medium-gray);">Building tomorrow's applications today</p>
+                        <a href="about.html" class="btn btn-primary btn-lg" style="background-color: var(--dark-gray); border-color: var(--dark-gray);">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-slide hero-slide-3 d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h1 class="display-3 fw-bold mb-4" style="color: var(--dark-gray);">Cutting-Edge Technology</h1>
+                        <p class="lead mb-4" style="color: var(--medium-gray);">Staying ahead of the curve</p>
+                        <a href="contact.html" class="btn btn-primary btn-lg" style="background-color: var(--dark-gray); border-color: var(--dark-gray);">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-3">Our Services</h2>
+                    <p class="lead text-muted">Comprehensive solutions for your business needs</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-laptop text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Web Development</h5>
+                            <p class="card-text text-muted">Custom websites and web applications built with modern technologies and best practices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-phone text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Mobile Apps</h5>
+                            <p class="card-text text-muted">Native and cross-platform mobile applications for iOS and Android devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-cloud text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Cloud Solutions</h5>
+                            <p class="card-text text-muted">Scalable cloud infrastructure and deployment solutions for your applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-6 fw-bold mb-4">Why Choose Us?</h2>
+                    <div class="d-flex mb-3">
+                        <div class="flex-shrink-0">
+                            <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Expert Team</h5>
+                            <p class="text-muted mb-0">Years of experience in delivering high-quality solutions</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="flex-shrink-0">
+                            <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Modern Technology</h5>
+                            <p class="text-muted mb-0">Using the latest tools and frameworks for optimal performance</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="flex-shrink-0">
+                            <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>24/7 Support</h5>
+                            <p class="text-muted mb-0">Round-the-clock assistance whenever you need it</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-4">Get a Free Consultation</h4>
+                            <p class="text-muted mb-4">Let's discuss how we can help transform your business with technology.</p>
+                            <button type="button" class="btn btn-primary btn-lg w-100" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                                Schedule Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="consultationModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Schedule a Consultation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="consultName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="consultName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="consultEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="consultEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="consultDate" class="form-label">Preferred Date</label>
+                            <input type="date" class="form-control" id="consultDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="consultMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="consultMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="logo-container mb-3">
+                        <div class="logo-shapes">
+                            <div class="logo-shape-top"></div>
+                            <div class="logo-shape-bottom"></div>
+                        </div>
+                        <div style="color: #ffffff;">
+                            <div style="line-height: 1.2; font-weight: 600;">Tech</div>
+                            <div style="line-height: 1.2; font-size: 0.85em; margin-top: -2px; font-weight: 600;">Solutions</div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Delivering innovative technology solutions for businesses worldwide.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none hover-link">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white text-decoration-none hover-link">About</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none hover-link">Contact</a></li>
+                        <li class="mb-2"><a href="terms.html" class="text-white text-decoration-none hover-link">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="privacy.html" class="text-white text-decoration-none hover-link">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Connect With Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-github" style="font-size: 1.5rem;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="text-muted mb-0">&copy; 2025 TechSolutions. Developed by Nakkeri Vivek. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="terms.html" class="text-muted text-decoration-none me-3 hover-link">Terms & Conditions</a>
+                    <a href="privacy.html" class="text-muted text-decoration-none me-3 hover-link">Privacy Policy</a>
+                    <a href="copyright.html" class="text-muted text-decoration-none hover-link">Copyright Claim</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function() {
+            const carousel = document.getElementById('heroCarousel');
+            const carouselInner = document.getElementById('carouselInner');
+            let startX = 0;
+            let currentX = 0;
+            let isDragging = false;
+            let carouselInstance = new bootstrap.Carousel(carousel);
+
+            carouselInner.addEventListener('touchstart', function(e) {
+                startX = e.touches[0].clientX;
+                isDragging = true;
+            });
+
+            carouselInner.addEventListener('touchmove', function(e) {
+                if (!isDragging) return;
+                currentX = e.touches[0].clientX;
+            });
+
+            carouselInner.addEventListener('touchend', function(e) {
+                if (!isDragging) return;
+                isDragging = false;
+                const diffX = startX - currentX;
+                const threshold = 50;
+
+                if (Math.abs(diffX) > threshold) {
+                    if (diffX > 0) {
+                        carouselInstance.next();
+                    } else {
+                        carouselInstance.prev();
+                    }
+                }
+            });
+
+            let mouseStartX = 0;
+            let mouseCurrentX = 0;
+            let isMouseDragging = false;
+
+            carouselInner.addEventListener('mousedown', function(e) {
+                mouseStartX = e.clientX;
+                isMouseDragging = true;
+                carouselInner.style.cursor = 'grabbing';
+            });
+
+            carouselInner.addEventListener('mousemove', function(e) {
+                if (!isMouseDragging) return;
+                mouseCurrentX = e.clientX;
+            });
+
+            carouselInner.addEventListener('mouseup', function(e) {
+                if (!isMouseDragging) return;
+                isMouseDragging = false;
+                carouselInner.style.cursor = 'grab';
+                const diffX = mouseStartX - mouseCurrentX;
+                const threshold = 50;
+
+                if (Math.abs(diffX) > threshold) {
+                    if (diffX > 0) {
+                        carouselInstance.next();
+                    } else {
+                        carouselInstance.prev();
+                    }
+                }
+            });
+
+            carouselInner.addEventListener('mouseleave', function(e) {
+                isMouseDragging = false;
+                carouselInner.style.cursor = 'grab';
+            });
+
+            carouselInner.style.cursor = 'grab';
+        })();
+    </script>
+</body>
+</html>
